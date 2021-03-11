@@ -11,7 +11,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         const url = urlParams.get('url');
         if (url) {
-            window.location.href = url;
+            window.open(url);
         }
     </script>
 </body>
